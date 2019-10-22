@@ -1,0 +1,4 @@
+Make requirements.txt specifying the python files
+Make Procfile specifying which server has to be run i.e javascript, this sets the dyno also
+Add the buildpacks for python and nodejs
+Then : git add . commit and push heroku master
