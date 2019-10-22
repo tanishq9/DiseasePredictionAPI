@@ -8,6 +8,7 @@ def predict(preg,glucose,bp,st,insulin,bmi,dbf,age):
     print(model.predict(input)[0])    
     
 if __name__ == "__main__":
+    
     preg=float(sys.argv[1])
     glucose=float(sys.argv[2])
     bp=float(sys.argv[3])
