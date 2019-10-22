@@ -1,5 +1,3 @@
-import numpy as np
-import pandas as pd
 import pickle
 import sys
 from sklearn.ensemble import RandomForestClassifier
