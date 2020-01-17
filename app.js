@@ -14,6 +14,16 @@ app.get("/", (req, res) => {
     res.send("Working");
 });
 
+app.get("/pics",(req,res)=>{
+    data = {
+        "1":"https://i.ibb.co/yPM1B8H/pic1.jpg",
+        "2":"https://i.ibb.co/hRDHnnZ/pic2.jpg",
+        "3":"https://i.ibb.co/7gCFX21/pic3.jpg",
+        "4":"https://i.ibb.co/dLCxMCr/pic4.jpg"
+    }
+    res.send(data);
+})
+
 app.post("/disease/diabetes",(req,res)=>{
 
     console.log(req.body);
